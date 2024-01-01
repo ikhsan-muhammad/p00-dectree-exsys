@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    /* background: linear-gradient(353.54deg, #974EC2 16.82%, #D3BEF0 92.3%); */
+    background-color: #D3BEF0;
+    font-family: 'Poppins';
+    /* height: 100%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+table{
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #9D78BE;
+}
+
+/* navbar */
+.navbar {
+background-color: #5E4DAB;
+font-size: 14px;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+.logo-balitbu{
+display: flex;
+align-items: center;
+font-size: 20px;
+}
+.menu ul{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+  }
+a{
+    text-decoration: none;
+    color: white;
+ }    
+
+/* content-hasil-diagnosa */
+.content-hasil{
+    margin: 10px 15% 0% 15%;
+}
+.visual1{
+    height: 100%;
+}
+.info-diagnosa{
+    border-radius: 20px;
+    background-color: #974EC2;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.title-pendiagnosa{
+    margin-bottom: 20px;
+}.data-pendiagnosa{
+    margin-left: 50px;
+    font-size: 16px;
+}
+.tablehasil{
+    margin: 20px 0px 20px 0px  ;    
+}
+.tablehasil table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tablehasil tr{
+    text-align: center;
+}
+.tablehasil td{
+    padding: 3px 20px ;
+    border: 1px solid black;
+}
+.penjabaran{
+    padding: 0px 50px;
+}
+.tombollanjutan{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 60px 20px 0px ;
+    /* margin-bottom: 5px; */
+}
+.tombollanjutan button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.detailpenyakit{
+    /* display: none; */
+    padding: 10px 30px;
+    margin-top: 70px;
+    background-color: #C2508B;
+    border-radius: 20px;
+}
+.detailpenyakit li{
+    display: block;
+}
+
+/* index 1 */
+.home-1dlm{
+    background: linear-gradient(0deg, #974EC2 14.05%, #D3BEF0 97%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.welcometext{
+    padding: 100px;
+    color: #1B0A41;
+}
+.tombolhome{
+    padding: 10px 30px;
+    margin-right: 30px;
+    border-radius: 7px;
+}
+.signin{
+    background-color: white;
+    color:#5E4DAB;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.signin:hover{
+     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+     transition: 0.8s;
+   
+}
+.signup{
+    background-color: #5E4DAB;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.signup:hover{
+    background-color: #3b278c;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: 0.8s;}
+
+/* index 2 */
+.home-2{
+    background: linear-gradient(180deg, #974EC2 2.64%, #D3BEF0 86.64%);
+    padding: 0% 10%;
+}
+.tom{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30vh;
+}
+.thp-utama{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.thp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thp .material-symbols-outlined{
+    margin-bottom: 15px;
+}
+.home-3{
+    padding: 30px 30%;
+    background-color: #1B0A41;
+    color: white;
+}
+form{
+    display: grid;
+}
+input,textarea,button{
+    border-radius: 5px;
+}
+
